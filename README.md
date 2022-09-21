@@ -1,4 +1,4 @@
-Hi all!
+# Hi all!
 
 With the new explosion of open-source stable diffusion algorithms, I was curious to try something myself! 
 I followed Aleksa Gordic, a research engineer at DeepMind, and learned a lot of things! 
@@ -28,3 +28,14 @@ will obtain different images), have fun experimenting with it! (right now the co
 For people also interested in stable diffusion and other uses, check Aleksa's resources and the other README file.
 
 Have fun with the algorithm, and let's all thank the open-source community for it!
+
+## Instructions
+
+First, you have to clone the repo or download the folder and set that up in your pc, then using Anaconda or any other tool, create the environment using the .yml file.
+
+Once the environment is ready (there will probably be many libraries to install manually after environment's creation) you can run the generate_images.py and see if that works.
+In Anaconda, "python generate_images.py".
+Default values of prompt is: "three dice generating random numbers", while default seed is 27.
+
+If that works, you can open the loop.py code, change the text file name (or call the file you put lyrics in "text.txt"), and run the script. It will generate one image per line of lyrics,
+each one with a random seed from 1 to 60.
